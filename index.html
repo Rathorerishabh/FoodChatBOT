@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pandeyji Eatery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            position: relative;
+            min-height: 100vh;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header h1 {
+            text-align: center;
+            margin: 0;
+            font-size: 2em;
+        }
+        .menu {
+            padding: 20px;
+            margin: 20px 0;
+            background: #fff;
+            border: 1px solid #ddd;
+        }
+        .menu h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .menu ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        .menu ul li {
+            display: inline-block;
+            margin: 10px 20px;
+            font-size: 1.2em;
+            text-align: center;
+            width: 200px; /* Added width to maintain layout */
+        }
+        .menu ul li img {
+            display: block;
+            margin: 0 auto 10px;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+        .about {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        .contact {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            font-size: 1.2em;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .chatbot {
+            position: fixed;
+            right: 10px;
+            bottom: 50%;
+            transform: translateY(50%);
+            z-index: 1000;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Pandeyji Eatery</h1>
+        </div>
+    </header>
+    <div class="container">
+        <div class="about">
+            <h2>About Us</h2>
+            <p>Welcome to Pandeyji Eatery, your ultimate destination for delicious and authentic food. Our menu is a fusion of traditional flavors and modern tastes, crafted to delight your palate.</p>
+        </div>
+        <div class="menu">
+            <h2>Our Menu</h2>
+            <ul>
+                <li>
+                    <img src="https://foodiewish.com/wp-content/uploads/2020/07/Rava-Dosa-Recipe.jpg" alt="Rava Dosa">
+                    Rava Dosa
+                </li>
+                <li>
+                    <img src="https://im.whatshot.in/img/2019/Aug/shutterstock-1381163087-cropped-1565077618.jpg" alt="Samosa">
+                    Samosa
+                </li>
+                <li>
+                    <img src="https://www.losebabyweight.com.au/wp-content/uploads/2016/02/4791207-9790062099-Pizza.jpg" alt="Pizza">
+                    Pizza
+                </li>
+                <li>
+                    <img src="https://www.whiskaffair.com/wp-content/uploads/2020/05/Mango-Lassi-2-1-1200x1800.jpg" alt="Mango Lassi">
+                    Mango Lassi
+                </li>
+                <li>
+                    <img src="http://i0.wp.com/healthyvegrecipes.com/wp-content/uploads/2016/08/pb1.jpg" alt="Pav Bhaji">
+                    Pav Bhaji
+                </li>
+                <li>
+                    <img src="https://www.cookwithmanali.com/wp-content/uploads/2018/04/Vada-Pav-500x500.jpg" alt="Vada Pav">
+                    Vada Pav
+                </li>
+            </ul>
+        </div>
+        <div class="contact">
+            <p>Contact Us: 7755844427</p>
+            <p>Email: <a href="mailto:zx.rishabh0@gmail.com" style="color: #77aaff;">zx.rishabh0@gmail.com</a></p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Pandeyji Eatery. All Rights Reserved.</p>
+    </footer>
+    <iframe
+        class="chatbot"
+        allow="microphone;"
+        width="350"
+        height="430"
+        src="https://console.dialogflow.com/api-client/demo/embedded/f1346f78-679d-473c-84d4-7d52092ba786">
+    </iframe>
+</body>
+</html>
